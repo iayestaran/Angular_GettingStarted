@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Product } from '../productse';
 
 @Component({
@@ -8,7 +8,7 @@ import { Product } from '../productse';
 })
 export class ProductAlertsComponent {
   @Input() product!: Product;
-
+  @Output() notify = new EventEmitter();
   abixa() {
     window.alert('Ahal bezain laster abixatuko zaituugu ' + this.product.name + '-ren berriekin')
   }
