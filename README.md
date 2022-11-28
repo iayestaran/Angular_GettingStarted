@@ -1,6 +1,6 @@
 # Angular_GettingStarted
 
-# Getting started with Angular
+## Getting started with Angular
 
 Example got from [https://angular.io/start](https://angular.io/start)
 
